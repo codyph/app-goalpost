@@ -8,12 +8,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GoalsVC: UIViewController {
 
+    // Outlets
+    @IBOutlet weak var tableView: UITableView!
+    
+    // Variables
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
+    
+    @IBAction func addGoalBtnTapped(_ sender: Any) {
+    }
+    
 
 
 }
