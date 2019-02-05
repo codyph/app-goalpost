@@ -1,4 +1,4 @@
-![]() # GoalPost
+![](app-goalpost/app-goalpost/Assets.xcassets/AppIcon.appiconset/GoalPost%20Icon.png) # GoalPost
 
 ## Description
 An application to track and post personal written goals.
