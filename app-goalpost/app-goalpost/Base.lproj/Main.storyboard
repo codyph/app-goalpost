@@ -13,7 +13,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="app_goalpost" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="app_goalpost" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
                                         </constraints>
                                         <state key="normal" image="addGoal"/>
                                         <connections>
-                                            <action selector="addGoalBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LVt-CL-cL2"/>
+                                            <action selector="addGoalBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rf6-pM-DBO"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -180,7 +180,7 @@
         <!--Create GoalVC-->
         <scene sceneID="h49-o9-9Vf">
             <objects>
-                <viewController id="KZV-5s-5oh" customClass="CreateGoalVC" customModule="app_goalpost" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="KZV-5s-5oh" customClass="CreateGoalVC" customModule="app_goalpost" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AVJ-Hw-Cy0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,24 +205,20 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnI-dA-aM3">
-                                        <rect key="frame" x="15" y="29.5" width="35" height="32"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="35" id="fKA-jh-XjS"/>
-                                            <constraint firstAttribute="height" constant="32" id="paZ-49-LiO"/>
-                                        </constraints>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ6-Eo-iMC">
+                                        <rect key="frame" x="15" y="33" width="14" height="25"/>
                                         <state key="normal" image="back"/>
                                         <connections>
-                                            <action selector="backBTnTapped:" destination="KZV-5s-5oh" eventType="touchUpInside" id="VDZ-ql-84g"/>
+                                            <action selector="backBtnTapped:" destination="KZV-5s-5oh" eventType="touchUpInside" id="ZiM-Db-FyU"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="NnI-dA-aM3" firstAttribute="centerY" secondItem="Vnv-5a-tdB" secondAttribute="centerY" id="4Me-Wv-z7i"/>
                                     <constraint firstAttribute="height" constant="70" id="9zl-9O-dLw"/>
+                                    <constraint firstItem="Vnv-5a-tdB" firstAttribute="centerY" secondItem="hJ6-Eo-iMC" secondAttribute="centerY" id="C89-yi-k3X"/>
                                     <constraint firstAttribute="bottom" secondItem="Vnv-5a-tdB" secondAttribute="bottom" constant="12" id="TPf-03-ynx"/>
-                                    <constraint firstItem="NnI-dA-aM3" firstAttribute="leading" secondItem="okF-74-JEU" secondAttribute="leading" constant="15" id="dw5-ee-M2A"/>
+                                    <constraint firstItem="hJ6-Eo-iMC" firstAttribute="leading" secondItem="okF-74-JEU" secondAttribute="leading" constant="15" id="cGE-ir-Rq4"/>
                                     <constraint firstItem="Vnv-5a-tdB" firstAttribute="centerX" secondItem="okF-74-JEU" secondAttribute="centerX" id="mvy-EQ-e49"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="pft-90-e3c"/>
                                 </constraints>

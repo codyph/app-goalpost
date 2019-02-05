@@ -33,7 +33,8 @@ class CreateGoalVC: UIViewController {
     }
     @IBAction func nextBtnTapped(_ sender: Any) {
     }
-    @IBAction func backBTnTapped(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    
+    @IBAction func backBtnTapped(_ sender: Any) {
+        dismissDetail()
     }
 }

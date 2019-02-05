@@ -16,6 +16,7 @@
 		D43FF89422085B5B005AB11F /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF89322085B5B005AB11F /* GoalCell.swift */; };
 		D43FF89622090E23005AB11F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF89522090E23005AB11F /* GoalType.swift */; };
 		D43FF8982209124B005AB11F /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF8972209124B005AB11F /* CreateGoalVC.swift */; };
+		D43FF89A2209132F005AB11F /* VCExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF8992209132F005AB11F /* VCExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D43FF89322085B5B005AB11F /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		D43FF89522090E23005AB11F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		D43FF8972209124B005AB11F /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		D43FF8992209132F005AB11F /* VCExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		D43FF89222085294005AB11F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D43FF8992209132F005AB11F /* VCExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				D43FF89622090E23005AB11F /* GoalType.swift in Sources */,
 				D43FF8822208524F005AB11F /* app_goalpost.xcdatamodeld in Sources */,
 				D43FF87C2208524F005AB11F /* GoalsVC.swift in Sources */,
+				D43FF89A2209132F005AB11F /* VCExt.swift in Sources */,
 				D43FF87A2208524F005AB11F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
