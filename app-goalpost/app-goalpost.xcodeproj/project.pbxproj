@@ -17,6 +17,8 @@
 		D43FF89622090E23005AB11F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF89522090E23005AB11F /* GoalType.swift */; };
 		D43FF8982209124B005AB11F /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF8972209124B005AB11F /* CreateGoalVC.swift */; };
 		D43FF89A2209132F005AB11F /* VCExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF8992209132F005AB11F /* VCExt.swift */; };
+		D43FF89C220919CF005AB11F /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF89B220919CF005AB11F /* ViewExt.swift */; };
+		D43FF89E22091DA4005AB11F /* ButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43FF89D22091DA4005AB11F /* ButtonExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D43FF89522090E23005AB11F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		D43FF8972209124B005AB11F /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		D43FF8992209132F005AB11F /* VCExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExt.swift; sourceTree = "<group>"; };
+		D43FF89B220919CF005AB11F /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		D43FF89D22091DA4005AB11F /* ButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				D43FF8992209132F005AB11F /* VCExt.swift */,
+				D43FF89B220919CF005AB11F /* ViewExt.swift */,
+				D43FF89D22091DA4005AB11F /* ButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 				D43FF8982209124B005AB11F /* CreateGoalVC.swift in Sources */,
 				D43FF89622090E23005AB11F /* GoalType.swift in Sources */,
 				D43FF8822208524F005AB11F /* app_goalpost.xcdatamodeld in Sources */,
+				D43FF89C220919CF005AB11F /* ViewExt.swift in Sources */,
+				D43FF89E22091DA4005AB11F /* ButtonExt.swift in Sources */,
 				D43FF87C2208524F005AB11F /* GoalsVC.swift in Sources */,
 				D43FF89A2209132F005AB11F /* VCExt.swift in Sources */,
 				D43FF87A2208524F005AB11F /* AppDelegate.swift in Sources */,
