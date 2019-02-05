@@ -1,4 +1,4 @@
-![](app-goalpost/app-goalpost/Assets.xcassets/AppIcon.appiconset/GoalPost%20Icon.png) # GoalPost
+<img src="https://github.com/codyph/app-goalpost/blob/master/app-goalpost/app-goalpost/Assets.xcassets/AppIcon.appiconset/GoalPost%20Icon.png" width:200 height:200> # GoalPost
 
 ## Description
 An application to track and post personal written goals.
