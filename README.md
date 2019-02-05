@@ -1,5 +1,5 @@
+# GoalPost 
 <img src="https://github.com/codyph/app-goalpost/blob/master/app-goalpost/app-goalpost/Assets.xcassets/AppIcon.appiconset/Icon-60.png"> 
-# GoalPost <img src="https://github.com/codyph/app-goalpost/blob/master/app-goalpost/app-goalpost/Assets.xcassets/AppIcon.appiconset/Icon-60.png"> 
 
 ## Description
 An application to track and post personal written goals.
